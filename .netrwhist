@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/eeridan/vim/7.4.340/bin'
+let g:netrw_dirhist_2='/proj/mlasic_sim/cri_core/eeridan/eeridan_cri_release/core_wrapper_top/tools/modelsim/rundir/tc/regression/hcc_test_02/2/log'
+let g:netrw_dirhist_3='/vobs/mlhw/traf/mufasa/mufasa_top/tools/synplify'
+let g:netrw_dirhist_4='/vobs/mlhw/traf/mufasa/test_blocks/core_wrapper_top_test/tools/designcompiler'
