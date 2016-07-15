@@ -27,10 +27,10 @@ noremap . .`[
 
 map ] <Esc>:cnext<CR>zz
 map [ <Esc>:cprevious<CR>zz
-map <F1> :!cleartool lsvtree -g %<CR>
-map <F2> :!cleartool unco %<CR>
-map <F3> :!cleartool co -nc %<CR>
-map <F4> :!cleartool ci -nc %<CR>
+"map <F1> :!cleartool lsvtree -g %<CR>
+"map <F2> :!cleartool unco %<CR>
+"map <F3> :!cleartool co -nc %<CR>
+"map <F4> :!cleartool ci -nc %<CR>
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 map <F6> :!cleartool ls %<CR>
 map <F7> :if &cuc==0 <Bar> set cuc <Bar> else <Bar> set nocuc <Bar> endif <CR>
