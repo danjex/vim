@@ -51,7 +51,10 @@ nnoremap <Leader>rtabs :%s/\t//e<CR>
 
 " :h g:incsearch#auto_nohlsearch
 set hlsearch
-" let g:incsearch#auto_nohlsearch = 1
+let g:incsearch#auto_nohlsearch = 1
+map /  <Plug>(incsearch-stay)
+map ?  <Plug>(incsearch-backward)
+map g/  <Plug>(incsearch-forward)
 map n  <Plug>(incsearch-nohl-n)
 map N  <Plug>(incsearch-nohl-N)
 map *  <Plug>(incsearch-nohl-*)
