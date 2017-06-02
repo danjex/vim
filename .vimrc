@@ -15,6 +15,9 @@ set directory=~/.vim_backup
 set ruler
 set showmatch
 
+" change path to directory of current file
+set autochdir
+
 " Set colors
 " set t_Co=256
 
